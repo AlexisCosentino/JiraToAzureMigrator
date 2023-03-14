@@ -83,7 +83,7 @@
             this.title1.ForeColor = System.Drawing.Color.White;
             this.title1.Location = new System.Drawing.Point(272, 9);
             this.title1.Name = "title1";
-            this.title1.Size = new System.Drawing.Size(137, 30);
+            this.title1.Size = new System.Drawing.Size(179, 37);
             this.title1.TabIndex = 6;
             this.title1.Text = "Jira to Azure";
             // 
@@ -95,7 +95,7 @@
             this.title2.ForeColor = System.Drawing.Color.White;
             this.title2.Location = new System.Drawing.Point(287, 39);
             this.title2.Name = "title2";
-            this.title2.Size = new System.Drawing.Size(100, 30);
+            this.title2.Size = new System.Drawing.Size(133, 37);
             this.title2.TabIndex = 6;
             this.title2.Text = "Migrator";
             // 
@@ -196,7 +196,7 @@
             this.Issues2019.Name = "Issues2019";
             this.Issues2019.Size = new System.Drawing.Size(196, 51);
             this.Issues2019.TabIndex = 1;
-            this.Issues2019.Text = "Issues 2019";
+            this.Issues2019.Text = "Sprint MOB";
             this.Issues2019.UseVisualStyleBackColor = false;
             this.Issues2019.Click += new System.EventHandler(this.issuesFrom2019_Click);
             // 
@@ -217,7 +217,7 @@
             // Index
             // 
             this.AccessibleName = "";
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(185)))), ((int)(((byte)(163)))));
             this.ClientSize = new System.Drawing.Size(867, 450);
@@ -233,6 +233,7 @@
             this.Name = "Index";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jira to Azure Migrator";
+            this.Load += new System.EventHandler(this.Index_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

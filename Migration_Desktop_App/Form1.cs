@@ -77,5 +77,10 @@ namespace Migration_Desktop_App
             GetJsonWithTimeTrackerUsersID list = new GetJsonWithTimeTrackerUsersID();
             list.getRequest();
         }
+
+        private void Index_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
