@@ -262,7 +262,7 @@ namespace Migration_Desktop_App
                 var sprints = ticketData["sprintList"].Split(",");
                 string sprint = sprints.Last();
                 var name = sprint.Split("_");
-                if (name[0] == "MOB" && ticketData["azureProject"] == "Mobilité")
+                if (name[0] == "MOB" && ticketData["azureProject"] == "Mobility")
                 {
                     return jsonToPost += ", {\"op\": \"add\", \"path\": \"/fields/System.IterationPath\", \"value\": \"\\\\Mobility\\\\" + sprint + "\" }";
                 }
